@@ -1,0 +1,11 @@
+#!/bin/bash
+
+current_time=$(date +%s)
+residue=$(($current_time % 60))
+file_time=$(($current_time - $residue - 60))
+echo -e ${file_time}
+
+filename="RATONCITO${file_time}"
+
+echo -e "${filename}.txt"
+

@@ -1,0 +1,83 @@
+#!/bin/bash
+
+GREEN_COLOUR='\x1B[32m'
+RED_COLOUR='\e[31m'
+END_MOD_COLOUR='\e[0m'
+
+
+PATH_MYSQL='/bin/mysql'
+PATH_SCRIPT='/space/script/fpga_load'
+
+current_time=$(date +%s)
+residue=$(($current_time % 60))
+file_time=$(($current_time - $residue - 120))
+#echo -e "${file_time}"
+
+file_name="m01_electrical_parameters_${file_time}.txt"
+#file_name="m01_electrical_parameters_1648917360.txt"
+file_name_clear="m01_electrical_parameters_${file_time}_clear.txt"
+fpgas_DB="fpgas"
+fpgaParameterTmp_Table="fgpa_parameter_tmp"
+servidor="localhost"
+
+validateFileInput(){
+	local filename=${file_name}
+	#VALIDAMOS LA EXISTENCIA DEL FILE
+	if [[ -f "${PATH_SCRIPT}/tmp/${filename}" ]]; then
+		echo -e "\t${GREEN_COLOUR}${PATH_SCRIPT}/tmp/${filename} exists.${END_MOD_COLOUR}"
+	else
+		echo -e "\t${RED_COLOUR}${PATH_SCRIPT}/tmp/${filename} not exists.${END_MOD_COLOUR}"
+		exit 1
+	fi
+
+	
+}
+clearFileInput(){
+	local filename=${file_name}
+	local filename_clean=${file_name_clear}
+
+	tr < ${PATH_SCRIPT}/tmp/${filename} -d '\000' > test_rata.txt
+	sed -e 's/\r//' test_rata.txt > ${PATH_SCRIPT}/tmp/${filename_clean}
+}
+
+
+loadDatatmp(){
+	local server=${servidor}
+	local database=${fpgas_DB}
+	local table=${fpgaParameterTmp_Table}
+	local filename=${file_name_clear}
+
+	
+	loadInerTmp ${server} ${database} ${table} ${filename} 
+}
+
+
+truncateTable(){
+	local server=$1
+	local database=$2
+	local table=$3
+
+	/bin/time --format="\tTruncate Table ${database}.${table} real %es" ${PATH_MYSQL} -h ${server} -u ragnarok --password='' ${database} -e \
+	"TRUNCATE TABLE ${database}.${table}"
+}
+
+loadInerTmp(){
+
+	local server=$1
+	local database=$2
+	local table=$3
+	local fileInput=$4
+
+	/bin/time --format="\tLoad Table ${database}.${table} real %es" ${PATH_MYSQL} -h ${server} -u ragnarok --password='' ${database} -e \
+	"LOAD DATA LOCAL INFILE '${PATH_SCRIPT}/tmp/${fileInput}' INTO TABLE ${database}.${table} FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'"
+}
+
+removeFiles(){
+	rm -f ${PATH_SCRIPT}/tmp/${file_name}
+	#rm -f ${PATH_SCRIPT}/tmp/${file_name_clear}
+}
+
+validateFileInput
+clearFileInput
+loadDatatmp
+removeFiles
