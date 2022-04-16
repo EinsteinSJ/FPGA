@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Apr 15 10:01:19 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : top_converter_hps_innovate
+Top-level Entity Name : top_converter_hps_innovate
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 5902
+Total pins : 180
+Total virtual pins : 0
+Total block memory bits : 84,000
+Total DSP Blocks : 39
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 1

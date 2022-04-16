@@ -1,0 +1,237 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "MISO5",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_5",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_8",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_5",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_6",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_7",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_8",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_10",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_12",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_10",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_12",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_5",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_6",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_7",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_8",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_10",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_12",
+					"strict" : false
+				},
+				{
+					"name" : "SCLK_A",
+					"strict" : false
+				},
+				{
+					"name" : "SCLK_B",
+					"strict" : false
+				},
+				{
+					"name" : "cuenta[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cuenta[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cuenta[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cuenta[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "phi_min",
+					"strict" : false
+				},
+				{
+					"name" : "phi_max",
+					"strict" : false
+				},
+				{
+					"name" : "MISO4",
+					"strict" : false
+				},
+				{
+					"name" : "DA_SSEL",
+					"strict" : false
+				},
+				{
+					"name" : "DA_MOSI",
+					"strict" : false
+				},
+				{
+					"name" : "SSEL1",
+					"strict" : false
+				},
+				{
+					"name" : "SSEL3",
+					"strict" : false
+				},
+				{
+					"name" : "SSEL4",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_1",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_2",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_3",
+					"strict" : false
+				},
+				{
+					"name" : "DRV6_4",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_1",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_2",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_3",
+					"strict" : false
+				},
+				{
+					"name" : "DRV3_4",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_1",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_2",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_3",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_4",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_6",
+					"strict" : false
+				},
+				{
+					"name" : "DRV1_7",
+					"strict" : false
+				},
+				{
+					"name" : "DRV4_5",
+					"strict" : false
+				},
+				{
+					"name" : "DRV4_6",
+					"strict" : false
+				},
+				{
+					"name" : "DRV4_7",
+					"strict" : false
+				},
+				{
+					"name" : "DRV4_8",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "go",
+					"strict" : false
+				},
+				{
+					"name" : "MISO2",
+					"strict" : false
+				},
+				{
+					"name" : "MISO6",
+					"strict" : false
+				},
+				{
+					"name" : "MISO8",
+					"strict" : false
+				},
+				{
+					"name" : "USB_TXD",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

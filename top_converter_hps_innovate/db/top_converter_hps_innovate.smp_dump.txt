@@ -1,0 +1,256 @@
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:phase_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:vgt_voltage_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:vgs_voltage_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:vgr_voltage_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:vgt_current_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:vgs_current_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:vgr_current_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:bavoltage_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:bacurrent_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:pvvoltage_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:pvcurrent_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:led_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|cpu:U10|cpu_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:sw_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |top_converter_hps_innovate|machinetm:D6|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D5|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|top_phase:U6|automate_phase:U2|ep
+Name ep.Fin_DAB ep.Start_Arret ep.Fonct ep.Wait_BottomandCount ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Wait_BottomandCount 0 0 0 1 1 
+ep.Fonct 0 0 1 0 1 
+ep.Start_Arret 0 1 0 0 1 
+ep.Fin_DAB 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D2|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D1|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D13|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D12|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D11|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D8|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D7|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D4|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D3|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D10|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D9|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|machinetm:D14|ep
+Name ep.TempsMort2 ep.Un_Zero ep.TempsMort1 ep.Zero_Un ep.Idle 
+ep.Idle 0 0 0 0 0 
+ep.Zero_Un 0 0 0 1 1 
+ep.TempsMort1 0 0 1 0 1 
+ep.Un_Zero 0 1 0 0 1 
+ep.TempsMort2 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|automate:U3|ep
+Name ep.DAC ep.WAIT_CALCUL ep.CALCUL ep.ADC ep.Init ep.Wait_DAC 
+ep.Wait_DAC 0 0 0 0 0 0 
+ep.Init 0 0 0 0 1 1 
+ep.ADC 0 0 0 1 0 1 
+ep.CALCUL 0 0 1 0 0 1 
+ep.WAIT_CALCUL 0 1 0 0 0 1 
+ep.DAC 1 0 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|AD5628:U2|ep
+Name ep.FIN_SPI ep.TRANSMITION ep.IDLE ep.Config ep.Init 
+ep.Init 0 0 0 0 0 
+ep.Config 0 0 0 1 1 
+ep.IDLE 0 0 1 0 1 
+ep.TRANSMITION 0 1 0 0 1 
+ep.FIN_SPI 1 0 0 0 1 
+
+State Machine - |top_converter_hps_innovate|ADC7476:U1_Bat|ep
+Name ep.TQUIET ep.VALID ep.RECEPTION ep.IDLE 
+ep.IDLE 0 0 0 0 
+ep.RECEPTION 0 0 1 1 
+ep.VALID 0 1 0 1 
+ep.TQUIET 1 0 0 1 
+
+State Machine - |top_converter_hps_innovate|ADC7476:U1_T|ep
+Name ep.TQUIET ep.VALID ep.RECEPTION ep.IDLE 
+ep.IDLE 0 0 0 0 
+ep.RECEPTION 0 0 1 1 
+ep.VALID 0 1 0 1 
+ep.TQUIET 1 0 0 1 
+
+State Machine - |top_converter_hps_innovate|ADC7476:U1_S|ep
+Name ep.TQUIET ep.VALID ep.RECEPTION ep.IDLE 
+ep.IDLE 0 0 0 0 
+ep.RECEPTION 0 0 1 1 
+ep.VALID 0 1 0 1 
+ep.TQUIET 1 0 0 1 
+
+State Machine - |top_converter_hps_innovate|ADC7476:U1_R|ep
+Name ep.TQUIET ep.VALID ep.RECEPTION ep.IDLE 
+ep.IDLE 0 0 0 0 
+ep.RECEPTION 0 0 1 1 
+ep.VALID 0 1 0 1 
+ep.TQUIET 1 0 0 1 
